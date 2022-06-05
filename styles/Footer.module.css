@@ -1,13 +1,15 @@
 .footer{
     background-color: rgb(18, 18, 18);
     color: #fff;
-    height: 10vw;
+    padding: 10vw;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 
-@media only screen and (max-width: 1427px) {
+/*@media only screen and (max-width: 1427px) {
     .footer{
         height: 80vw;
     }
@@ -24,4 +26,4 @@
         height: 80vw;
     }
 
-}
+}*/
