@@ -1,0 +1,27 @@
+.home {
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)),url('../public/background.jpg');
+    background-repeat: no-repeat;
+    height: 50vw;
+    text-align: center;
+    position: relative;
+}
+.home h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+@media only screen and (max-width: 412px) {
+    .home {
+        height: 80vw;
+    }
+}
+@media only screen and (max-width: 1427px) {
+    .home {
+        height: 100vw;
+    }
+}
